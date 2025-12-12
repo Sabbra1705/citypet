@@ -59,8 +59,13 @@ function ManualDeUso() {
     };
 
     return (
-        <section className="bg-tercero-oscuro py-20 px-6">
-            <div className="max-w-5xl mx-auto">
+        <section className="bg-tercero-oscuro py-20 px-6 relative overflow-hidden">
+            {/* Fondo decorativo */}
+            <div className="absolute inset-0 opacity-5 pointer-events-none">
+                <div className="absolute top-0 left-0 w-96 h-96 bg-segundo rounded-full blur-3xl"></div>
+                <div className="absolute bottom-0 right-0 w-96 h-96 bg-primero rounded-full blur-3xl"></div>
+            </div>
+            <div className="max-w-5xl mx-auto relative z-10">
                 <motion.div
                     initial={{ opacity: 0, y: -20 }}
                     whileInView={{ opacity: 1, y: 0 }}

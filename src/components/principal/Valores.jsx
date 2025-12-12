@@ -65,8 +65,13 @@ function Valores() {
     };
 
     return (
-        <section className="bg-tercero-claro py-20 px-6">
-            <div className="max-w-6xl mx-auto">
+        <section className="bg-tercero-claro py-20 px-6 relative overflow-hidden">
+            {/* Fondo decorativo */}
+            <div className="absolute inset-0 opacity-5 pointer-events-none">
+                <div className="absolute top-20 right-20 w-80 h-80 bg-primero rounded-full blur-3xl"></div>
+                <div className="absolute bottom-20 left-20 w-80 h-80 bg-segundo rounded-full blur-3xl"></div>
+            </div>
+            <div className="max-w-6xl mx-auto relative z-10">
                 <motion.div
                     initial={{ opacity: 0, y: -20 }}
                     whileInView={{ opacity: 1, y: 0 }}

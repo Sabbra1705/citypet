@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx';
 import Nosotros from './pages/Nosotros.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import Footer from './components/principal/Footer.jsx';
+import Particles from './components/Particles.jsx';
 
 function App() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <Router>
+      <Particles />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />

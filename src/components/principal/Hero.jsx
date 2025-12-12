@@ -24,16 +24,16 @@ export default function Hero() {
 
           <div className="mt-8 flex gap-4">
             <a
-              href="#propuesta"
+              href="#presentacion"
               className="bg-segundo text-white px-6 py-3 rounded-xl font-medium shadow-md hover:bg-segundo-oscuro transition flex items-center gap-2"
             >
               Ver propuesta
             </a>
             <a
-              href="#renders"
+              href="#nuestro-citypet"
               className="border-2 border-primero px-6 py-3 rounded-xl font-medium text-primero hover:bg-primero hover:text-white transition flex items-center gap-2"
             >
-              <FaImage /> Ver renders
+              <FaImage /> Ver imágenes
             </a>
           </div>
         </motion.div>

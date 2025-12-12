@@ -141,7 +141,7 @@ function Footer() {
                     transition={{ duration: 0.6 }}
                     className="text-gray-400 text-sm text-center md:text-left"
                 >
-                    © 2024 CityPet. Todos los derechos reservados. | Diseñado con ❤️ por estudiantes de Diseño Industrial
+                    © 2025 CityPet. Todos los derechos reservados. | Diseñado con ❤️ por estudiantes de Diseño Industrial
                 </motion.p>
 
                 <motion.button

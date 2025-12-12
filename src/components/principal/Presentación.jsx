@@ -16,7 +16,7 @@ function Presentacion() {
             </h2>
             <p className="text-lg text-primero-oscuro max-w-xl mx-auto flex items-start justify-center gap-2">
                 <FaSmile className="text-segundo mt-1 flex-shrink-0" />
-                <span>SidecarPet es un sistema diseñado para garantizar la seguridad y bienestar de tus mascotas durante el transporte en motocicletas urbanas, combinando confort, ventilación y facilidad de uso.</span>
+                <span>Citypet es un sistema diseñado para garantizar la seguridad y bienestar de tus mascotas durante el transporte en motocicletas urbanas, combinando confort, ventilación y facilidad de uso.</span>
             </p>
             <div className='flex flex-col justify-center '>
                 <img className='md:w-1/3 mx-auto' src={render} alt="" />

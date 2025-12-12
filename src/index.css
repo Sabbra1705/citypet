@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pequeños ajustes visuales */
+html, body, #root {
+  height: 100%;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F8FAFC;
+  color: #111827;
+}

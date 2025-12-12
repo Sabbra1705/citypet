@@ -137,7 +137,7 @@ function NuestroEquipo() {
                     className="mt-16 text-center"
                 >
                     <p className="text-lg text-primero-claro max-w-2xl mx-auto leading-relaxed">
-                        Somos un equipo multidisciplinario de estudiantes de <span className="font-bold text-primero-oscuro">Diseño Industrial</span> comprometidos con la innovación y la creación de soluciones sostenibles para mejorar la vida de las mascotas en la ciudad.
+                        Somos un equipo  de estudiantes de <span className="font-bold text-primero-oscuro">Diseño Industrial</span> comprometidos con la innovación y la creación de soluciones sostenibles para mejorar la vida de las mascotas en la ciudad.
                     </p>
                 </motion.div>
             </div>
